@@ -4,7 +4,7 @@ import type { Config, PresetConfig, ThemeConfig } from '@docusaurus/types';
 import type { Navbar } from '@docusaurus/theme-common'
 import remarkMath from 'remark-math';
 import rehypeKatex from 'rehype-katex';
-import { gtag, redirects } from './config.config';
+import { codeTheme, gtag, redirects } from './config.config';
 
 const site_url = 'https://4tel.github.io/';
 const author = '4Tel';

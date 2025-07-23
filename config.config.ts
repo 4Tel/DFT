@@ -1,6 +1,6 @@
 import { themes } from 'prism-react-renderer';
 
-const codeTheme = {
+export const codeTheme = {
   theme: themes.oneLight,
   darkTheme: themes.oneDark,
   magicComments: [
