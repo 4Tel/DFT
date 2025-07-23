@@ -1,0 +1,47 @@
+/* code block */
+.error-line {
+  background-color: rgba(255, 0, 0, 0.3);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff000080;
+}
+
+.warn-line {
+  background-color: rgba(255, 165, 0, 0.3);
+  display: block;
+  margin: 0 calc(-1 * var(--ifm-pre-padding));
+  padding: 0 var(--ifm-pre-padding);
+  border-left: 3px solid #ff980080;
+}
+
+/* tabs */
+.tabs-container {
+  border: solid;
+  background-color: var(--ifm-color-emphasis-300);
+  padding-bottom: 0.5em;
+}
+
+.tabs-container [role='tablist'] {
+  background-color: var(--ifm-color-emphasis-200);
+}
+
+/* .tabs-container [role='tab'] {} */
+
+.tabs-container [role='tab'][aria-selected='true'] {
+  color: #fff;
+  background-color: var(--ifm-tabs-color-active-border);
+}
+
+.tabs-container [role='tabpanel'] {
+  padding: 5px;
+}
+
+/* katex */
+.katex {
+  font-size: 1.5em;
+
+  .mfrac {
+    font-size: 1.4em;
+  }
+}
