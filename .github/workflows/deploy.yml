@@ -24,6 +24,7 @@ jobs:
         with:
           version: 8
           run_install: false # not install yet
+      - run: pnpm config set store-dir ~/.pnpm-store
 
       # pnpm cache
       - name: Setup pnpm cache
