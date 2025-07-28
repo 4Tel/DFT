@@ -15,6 +15,17 @@
   border-left: 3px solid #ff980080;
 }
 
+/* TeX copy */
+.tex-copy-button {
+  font-size: 0.9rem;
+  background: transparent;
+  border: none;
+}
+
+.tex-copy-button:hover {
+  color: green;
+}
+
 /* tabs */
 .tabs-container {
   border: solid;
