@@ -41,9 +41,13 @@ const navigation: Navbar = {
   hideOnScroll: true,
   items: [
     {
-      label: "home",
+      label: 'Home',
+      to: '/',
+    },
+    {
+      label: "Theory",
       position: "left",
-      to: "/",
+      items: [{label: 'DFT', to: '/DFT/DFT'}],
     }, {
       href: repo_url,
       position: 'right',
