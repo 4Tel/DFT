@@ -41,13 +41,16 @@ const navigation: Navbar = {
   hideOnScroll: true,
   items: [
     {
-      label: 'Home',
-      to: '/',
-    },
-    {
       label: "Theory",
       position: "left",
-      items: [{label: 'DFT', to: '/DFT/DFT'}],
+      items: [{label: 'DFT', to: '/DFT'}],
+    }, {
+      label: "Software",
+      position: "left",
+      items: [
+          { label: 'Quantum ESPRESSO', to: '/Software/QE' },
+          { label: 'QE-Dev', to: '/Software/QE-Dev' },
+      ]
     }, {
       href: repo_url,
       position: 'right',
