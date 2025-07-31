@@ -5,6 +5,8 @@
 * 크기: `(npwx*npol, nbnd)`
 * 읽기: `CALL get_buffer(evc, nwordwfc, iunwfc, iks)`
 * 쓰기: `CALL save_buffer(evc, nwordwfc, iunwfc, iks)`
+* `npol`은 `nspin`에 따라 결정된다. [참고](./spin)
+
 ### 물리적 의미
 Wavefunction 중 Bloch function의 계수 $c_{n\mathbf{k}}(\mathbf{G})$  
 * Wavefunction 표현식:
