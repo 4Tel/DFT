@@ -19,7 +19,7 @@ export function injectLatexCopyButtons() {
 
     // Copy Button
     // 
-    const htmlBlock = block.querySelector('.katex-html .base');
+    const htmlBlock = block.querySelector('.katex-html');
     if (!htmlBlock) return;
     const btn = document.createElement('button');
     btn.className = className;
