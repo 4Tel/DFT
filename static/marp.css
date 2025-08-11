@@ -1,0 +1,88 @@
+/* @theme A4 */
+/* Ref. https://www.youtube.com/watch?v=XHJ5q1qxqis */
+@import "default";
+
+/* headers */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #24292f;
+}
+
+/* page setting */
+section {
+  width: 210mm;
+  height: 297mm;
+  font-size: 16px;
+}
+
+/* lead page */
+section.lead {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 300px;
+  font-size: 2em;
+}
+
+/* default page */
+section {
+  display: flex;
+  justify-self: flex-start;
+}
+
+h1 {
+  font-size: 1.4em;
+  margin-bottom: 1em;
+}
+
+h2,
+h3 {
+  font-size: 1.2em;
+  margin: 0px 0px 0.5em 1em;
+}
+
+h3 {
+  font-size: 1em;
+  margin: 0px 0px 0.5em 2em;
+}
+
+/* table */
+table,
+tr,
+td,
+th {
+  background: transparent !important;
+  font-size: 0.9em;
+  text-align: center;
+  vertical-align: middle;
+}
+
+table {
+  display: table;
+  margin: 0px 0px 16px 30px;
+}
+
+tr,
+td,
+th {
+  display: table-cell;
+  border: 1px solid gray !important;
+}
+
+tr {
+  display: table-row;
+}
+
+th {
+  font-style: italic;
+  background-color: gainsboro !important;
+}
+
+img {
+  border: 0px !important;
+}
