@@ -11,5 +11,5 @@
 
 
 [^1]: https://www.quantum-espresso.org/Doc/pw_user_guide/node10.html
-[^2]: https://github.com/QEF/q-e/blob/7fd60c9bc9fe7a7d1fe6f1049f4afba0eab9aeef/PW/src/input.f90#L472
+[^2]: https://github.com/QEF/q-e/blob/qe-7.3.1/PW/src/input.f90#L472
 [^3]: https://github.com/QEF/q-e/blob/qe-7.3.1/Modules/qexsd_input.f90#L302-L316
