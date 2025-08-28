@@ -1,6 +1,8 @@
 import { themes } from 'prism-react-renderer';
 
 export const codeTheme = {
+  additionalLanguages: ['fortran'],
+  defaultLanguage: 'fortran',
   theme: themes.oneLight,
   darkTheme: themes.oneDark,
   magicComments: [
