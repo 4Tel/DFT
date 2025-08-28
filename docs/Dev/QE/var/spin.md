@@ -52,7 +52,7 @@
 * 각 `current_k`는 `up` 또는 `dw`를 담고 있다.
 * QE의 호출 호환성을 위해 `IF (lsda) current_spin=isk(current_k)`를 수행해야 한다.
 ### rho
-* `lsda`인 경우 rho 배열은 버전에 따라 다른 값을 담는다.  
+* `lsda`인 경우 rho 배열은 버전에 따라 다른 값을 담는다.
 * [QE Release Notes](https://github.com/QEF/q-e/blob/develop/Doc/release-notes) 참고
 
 <Tabs>

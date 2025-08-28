@@ -8,7 +8,7 @@
 * `npol`은 `nspin`에 따라 결정된다. [참고](./spin)
 
 ### 물리적 의미
-Wavefunction 중 Bloch function의 계수 $c_{n\mathbf{k}}(\mathbf{G})$  
+Wavefunction 중 Bloch function의 계수 $c_{n\mathbf{k}}(\mathbf{G})$
 * Wavefunction 표현식:
 $$
 \psi_{n\mathbf{k}}(\mathbf{r}) = u_{n\mathbf{k}}(\mathbf{r}) e^{i\mathbf{k}\cdot\mathbf{r}}

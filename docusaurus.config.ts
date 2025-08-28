@@ -49,7 +49,12 @@ const navigation: Navbar = {
       position: "left",
       items: [
           { label: 'Quantum ESPRESSO', to: '/Software/QE' },
-          { label: 'QE-Dev', to: '/Software/QE-Dev' },
+        ]
+    }, {
+      label: "Dev",
+      position:"left",
+      items: [
+        { label: 'QE', to: '/Dev/QE' },
       ]
     }, {
       href: repo_url,

@@ -11,12 +11,16 @@ const Theory: SidebarsConfig = {
 
 const Software: SidebarsConfig = {
   qeBars: [auto('Software/QE')],
-  qeDevBars: [auto('Software/QE-Dev')],
+}
+
+const Dev: SidebarsConfig = {
+  qeDevBars: [auto('Dev/QE')],
 }
 
 const sidebars: SidebarsConfig = {
   ...Theory,
   ...Software,
+  ...Dev,
 }
 
 export default sidebars
