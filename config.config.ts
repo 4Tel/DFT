@@ -36,6 +36,11 @@ export const gtag: PluginConfig = [
 export const redirects: PluginConfig = [
   '@docusaurus/plugin-client-redirects',
   {
-    redirects: [],
+    redirects: [
+      {
+        from:"/",
+        to:"/Theory/DFT",
+      }
+    ],
   },
 ];

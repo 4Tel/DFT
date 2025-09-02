@@ -43,7 +43,12 @@ const navigation: Navbar = {
     {
       label: "Theory",
       position: "left",
-      items: [{label: 'DFT', to: '/DFT'}],
+      items: [
+        {label: 'DFT', to: '/Theory/DFT'},
+        {label: 'Basis', to: '/Theory/Basis'},
+        {label: 'Pseudopotential', to: '/Theory/PP'},
+        {label: 'TDDFT', to: '/Theory/TDDFT'}
+      ],
     }, {
       label: "Software",
       position: "left",
