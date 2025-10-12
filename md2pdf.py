@@ -92,7 +92,7 @@ for file in iter_md_paths('docs'):
     slide_level = metadata.get('slide_level', ['2'])[0]
 
     # paths
-    if marp != 'NONE' != pandoc:
+    if marp != 'NONE' or pandoc != 'NONE':
         print(f"Processing: {file}")
     ppt_path = replace_ext(file, "pptx")
     pdf1_path = replace_ext(file, "1.pdf")
